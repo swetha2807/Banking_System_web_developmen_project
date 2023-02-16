@@ -1,0 +1,13 @@
+SQL COMMANDS TO CREATE DATABASE
+
+CREATE TABLE customer_data(
+    Account_no INT NOT NULL PRIMARY KEY,Name VARCHAR(100) NOT NULL,
+    email VARCHAR(200) NOT NULL UNIQUE,
+    Balance INT NOT NULL  
+);
+
+INSERT INTO customer_data(Account_no,Name, email,Balance) VALUES
+(1001,'Bill','bill@gmail.com',3500),
+(1002,'Elon','elon@gmail.com',2000),
+(1003,'Swetha','swetha@gmail.com',3000),
+(1004,'Bob','bob@gmail.com',4500);
